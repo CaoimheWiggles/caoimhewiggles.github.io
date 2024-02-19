@@ -1,2 +1,407 @@
-# caoimhewiggles.github.io
-JS Project
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Kia's Kitchen</title>
+
+    <link rel="stylesheet" href="style.css">
+    
+    
+    
+    <link rel="icon" type ="image/x-icon" href="favicon.jpeg">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="body">
+  <div class="widthWrapper">
+  <button id="exampleButton"><img src="welcome.jpg"></button>
+
+<header class="header">
+
+  <img class= "logo" src="logo.png" alt="kias kitchen">
+  <img class= "chef" src="chef.jpg" alt="chef">
+
+</header>
+
+
+<h1 class="title"> Massaman Curry</h1>
+
+
+<!-- Intro -->
+
+<p>
+      Crafted with care, our <strong>Beef Massaman Curry</strong> is a culinary delight! 
+      This exquisite Thai coconut curry demands patience, 
+      but the result is worth every moment. Indulge in a luxurious, aromatic curry boasting tender, 
+      melt-in-your-mouth beef and a symphony of flavors
+      that elevate each bite.
+      <br>
+      <br>
+      Plus, discover an effortless shortcut using store-bought Massaman Curry paste, 
+      complete with our recommendation for the ultimate brand!
+</p>
+
+<!-- Nav-->
+<nav class="nav">
+    <ul class="navbar">
+        <li><a href="#recipe"><img src="recipe.jpg" class="nav_img" alt="recipe"></a></li>
+        <li><a href="#howto"><img src="how_to.jpg" class="nav_img" alt="how to"></a></li>
+        <li><a href="#images"><img src="images.jpg" class="nav_img" alt="images"></a></li>
+        <li><button onclick="printPage()" class="print"><img src="print.jpg" alt="print" id="print"></button></li>
+    </ul>
+</nav>
+
+<div class="image-curry">
+<img src="curry.jpg" alt="curry" class="curry">
+</div>
+
+<!-- Intro 2-->
+<br>
+<p>Peanuts, coconut, a fragrant blend of fresh and ground spices, tender potatoes,
+    and succulent beef that practically falls apart at the touch. 
+    <br>What's not to adore about <strong>Massaman Curry</strong>? 
+    It's like a harmonious symphony of all my cherished flavors, simmered to perfection in a single pot!
+    <br><br>
+    And it's not just me who's enamored with it. 
+    There's a reason why <b>Massaman Curry</b> frequently earns the spotlight as a Chef's Special in Thai restaurants,
+    often sharing the limelight with its equally tantalizing lamb shank counterpart. In fact, it's among the top-requested
+    recipes whenever I reach out to my followers for suggestions.
+    <br><br>
+    We've wholeheartedly embraced <b>Massaman Curry</b> as a household favorite, and rightfully so!
+</p>
+<br>
+
+<!-- How To -->
+
+<h2> How To</h2>
+
+<img src="hat.png" class="hat" alt="chefs hat">
+
+<!-- Prep Time -->
+
+<h3>Preparation time</h3>
+  <div class="prep">
+    <ul class="prep-list">
+        <li><span><strong>Preparation:</strong></span> 30 minutes</li>
+        <li><span><strong>Cooking:</strong></span> 2 hours</li>
+        <li><span><strong>Total:</strong></span> 2 hours 30 minutes</li>
+    </ul>
+  </div>
+
+<section id="recipe">
+<!-- Ingredients-->
+<h3>Ingredients</h3>
+  <div class="ingredients">
+    <ul>
+        <li><strong>Beef:</strong> 500g, cut into bite-sized pieces</li>
+        <li><strong>Massaman Curry Paste:</strong> 3 tablespoons (store-bought or homemade)</li>
+        <li><strong>Coconut Milk:</strong> 400ml (1 can)</li>
+        <li><strong>Potatoes:</strong> 2 medium, peeled and cut into chunks</li>
+        <li><strong>Onion:</strong> 1 large, chopped</li>
+        <li><strong>Peanuts:</strong> 1/4 cup, unsalted, roasted</li>
+        <li><strong>Brown Sugar:</strong> 2 tablespoons</li>
+        <li><strong>Fish Sauce:</strong> 2 tablespoons</li>
+        <li><strong>Tamarind Paste:</strong> 1 tablespoon</li>
+        <li><strong>Cinnamon Stick:</strong> 1</li>
+        <li><strong>Cardamom Pods:</strong> 3</li>
+        <li><strong>Bay Leaves:</strong> 2</li>
+        <li><strong>Oil:</strong> 2 tablespoons</li>
+        <li><strong>Optional Garnish:</strong> Fresh cilantro leaves, sliced red chili peppers, lime wedges</li>
+    </ul>
+  </div>
+</section>
+
+<!-- Instructions -->
+<section id="howto">
+<h3>Instructions</h3>
+  <div class="instructions">
+    <h4>BEEF:</h4>
+      <ul>
+          <li>Place Beef ingredients in a medium saucepan. Liquid should almost cover beef but not completely – if not, add water.</li>
+          <li>Add lemongrass trimmings.</li>
+          <li>Bring to boil over high heat, then reduce heat and simmer gently for 1.5 – 2 hours until beef is fork tender.</li>
+          <li>Remove beef. If there’s much more than 1.5 cups liquid, simmer to reduce. Set liquid aside.</li>
+      </ul>
+
+
+<!-- Flavouring -->
+
+    <h4>CHAR AROMATICS (FLAVOUR!):</h4>
+       <ul>
+        <li>Place heavy based skillet over high heat until smoking (no oil).</li>
+        <li>Add eschalot, garlic and galangal in skillet. Get a nice char on them, then remove (~1.5 minutes).</li>
+        <li>Add dried chillies into skillet, char 10 seconds or so on each side until charred, then remove.</li>          <li>Once cool enough to handle: Grate galangal. Peel garlic. Break chillies in half, shake out seeds and discard.</li>
+      </ul>
+
+
+
+    <h4>SPICE PASTE DRIED SPICES:</h4>
+      <ul>
+          <li>Wipe the skillet used above or use a clean one. Heat on medium heat, add Spice Paste Dried Spices. Toast for 30 seconds or until they start to smell fragrant – do not let them burn. Immediately transfer into bowl.</li>
+      </ul>
+
+
+<!-- Curry Paste -->
+
+    <h4>CURRY PASTE:</h4>
+      <ul>
+          <li>Place chillies in food processor. (Note 8) Blitz until finely chopped.</li>
+          <li>Add galangal, finely chopped lemongrass, the toasted Spice Paste Dried Spices, and remaining Spice Paste ingredients, starting with 4 tbsp water. Blitz until smooth – add more water if required.</li>
+      </ul>
+
+
+<!-- Curry Sauce -->
+
+    <h4>CURRY SAUCE:</h4>
+      <ul>
+          <li>Place oil in a pot or large skillet over medium high heat. Add curry paste and cook for 3 minutes until the liquid has cooked out and it’s thick and fragrant.</li>
+          <li>Add coconut milk, stir to incorporate.</li>
+          <li>Add cinnamon, star anise and reserved beef braising liquid. Reduce heat to medium and simmer for 3 minutes.</li>
+          <li>Stir in fish sauce, tamarind and sugar, stir.</li>
+          <li>Add potatoes and cook for 7 minutes or until potatoes are tender, turning as required.</li>
+          <li>Add beef and simmer for 2 minutes or until sauce has reduced and thickened.</li>
+      </ul>
+
+
+    <h4>Adjust and Serve:</h4>
+      <ul>
+          <li>Adjust saltiness with fish sauce, sourness with tamarind and sweetness with sugar. The taste should be sweet, salty and sour, with more emphasis on the sweet and sour notes. Top up with a little water if the curry seems too thick.</li>
+          <li>Serve over jasmine rice, garnished with peanuts (essential!) plus optional crispy Asian shallots and fresh chilies.</li>
+      </ul>
+
+
+  </div>
+
+</section>
+
+<!-- Recipe Notes -->
+
+<h3>Recipe Notes:</h3>
+<div class="notes">
+
+  <p><b>STORE BOUGHT CURRY PASTE DIRECTIONS:</b>
+    <br>
+    Use <a href= "https://www.tesco.com/groceries/en-GB/products/300594528?_gl=1*1x0cx31*_up*MQ..*_ga*MTEwMzQ3MTExMy4xNzA4MjgxODkz*_ga_33B19D36CY*MTcwODI4MTg5Mi4xLjAuMTcwODI4MTg5Mi4wLjAuMA.." id= "paste" alt="paste">Tesco's</a> brand if you can, 
+    it’s the cheapest and best by a long shot. Use the entire 200g or the same amount of another brand of choice. </p>
+    <br>
+      <ul>
+          <li>Proceed with cooking the beef as instructed in the Beef section to prepare the meat and broth;</li>
+          <li>Omit the steps for making homemade curry paste;</li>
+          <li>In the Curry Sauce section, substitute the homemade paste with store-bought paste, and add 2 minced garlic cloves, 2 teaspoons of minced ginger, and 1 tablespoon of lemongrass (either paste or finely grated fresh, using only the white part);</li>
+          <li>Cook the mixture for 3 minutes as per the recipe instructions, then continue following the recipe as directed.</li>
+      </ul>
+
+      <ol>
+          <li>
+              <strong>Lemongrass Preparation:</strong>
+              <p>For the lemongrass, trim to keep only the tender 8 cm / 3″ bottom portion. Peel away the tough outer layers, leaving a pale green / white stem for the paste. The trimmed parts are reserved for the beef broth.</p>
+          </li>
+          <li>
+              <strong>Chillies:</strong>
+              <p>This dish aims for a subtle warmth rather than intense spiciness. It's made with mild Asian dried chillies found in most Asian grocery stores, not the spicier Thai Chillies. Spice levels can vary, so taste the chillies beforehand to gauge heat. Adjust the quantity based on preference.</p>
+          </li>
+          <li>
+              <strong>Eschalots:</strong>
+              <p>French onions, also known as small red / purple baby onions, can be substituted with a quartered red onion.</p>
+          </li>
+          
+      </ol>
+
+
+<!-- Additional Notes -->
+
+<p><strong>Additional Notes:</strong></p>
+  <ul>
+      <li><strong>Blitzing:</strong> A reliable food processor is essential for blending curry paste ingredients into a smooth consistency.</li>
+      <li><strong>Storage:</strong> Serve fresh for the best flavor, or store in the fridge for up to 3 days. Freezing is also an option, but be sure to stir the sauce well before serving.</li>
+      <li><strong>Recipe Source:</strong> Inspired by authentic recipes from renowned chefs David Thompson and Sujet Saenkham. After several attempts, we've crafted a Massaman curry that stays true to its roots.</li>
+      <li><strong>Nutrition per Serving:</strong> While not a low-calorie dish, you can reduce the calorie count by trimming excess fat from the beef and using fewer oil tablespoons. Opt for regular coconut milk for richer flavor and consider swapping potatoes for low-carb veggies to lower the calorie count.</li>
+  </ul>
+
+</div>
+
+<br>
+<!-- Nutrition Information -->
+
+<h3>Nutrition Information</h3>
+
+<div class="table-container">
+  <table>
+      <tr>
+        <th>Nutrient</th>
+        <th>Amount</th>
+        <th>% Daily Value</th>
+      </tr>
+      <tr>
+        <td id="nutrients">Calories</td>
+        <td>747 cal</td>
+        <td>37%</td>
+      </tr>
+      <tr>
+        <td id="nutrients">Carbohydrates</td>
+        <td>27g</td>
+        <td>9%</td>
+      </tr>
+      <tr>
+        <td id="nutrients">Protein</td>
+        <td>38g</td>
+        <td>76%</td>
+      </tr>
+      <tr>
+        <td id="nutrients">Fat</td>
+        <td>56g</td>
+        <td>86%</td>
+      </tr>
+      <tr>
+        <td id="nutrients">Saturated Fat</td>
+        <td>28g</td>
+        <td>175%</td>
+      </tr>
+      <tr>
+        <td id="nutrients">Cholesterol</td>
+        <td>103mg</td>
+        <td>34%</td>
+      </tr>
+      <tr>
+        <td id="nutrients">Sodium</td>
+        <td>951mg</td>
+        <td>41%</td>
+      </tr>
+      <tr>
+        <td id="nutrients">Potassium</td>
+        <td>1398mg</td>
+        <td>40%</td>
+      </tr>
+      <tr>
+        <td id="nutrients">Fiber</td>
+        <td>4g</td>
+        <td>17%</td>
+      </tr>
+      <tr>
+        <td id="nutrients">Sugar</td>
+        <td>5g</td>
+        <td>6%</td>
+      </tr>
+      <tr>
+        <td id="nutrients">Vitamin A</td>
+        <td>20 IU</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td id="nutrients">Vitamin C</td>
+        <td>16.9mg</td>
+        <td>20%</td>
+      </tr>
+      <tr>
+        <td id="nutrients">Calcium</td>
+        <td>113mg</td>
+        <td>11%</td>
+      </tr>
+      <tr>
+        <td id="nutrients">Iron</td>
+        <td>11.2mg</td>
+        <td>62%</td>
+      </tr>
+    </table>
+  </div>
+
+</div>
+
+<br><br>
+
+<!-- sides -->
+
+<h4>Some Delicious Sides To Have With Your Curry!</h4>
+<section id="images">
+<div class="gallery">
+  <div>
+    <span><img src="image1.jpg" alt="steamed veg"></span>
+    <span><img src="image2.jpg" alt="pickles"></span>
+    <span><img src="image3.jpg" alt="naan bread"></span>
+    </div>
+    <div>
+    <span><img src="image4.jpg" alt="spring roll"></span>
+    <span><img src="image5.jpg" alt="rice"></span>
+    <span><img src="image6.jpg" alt="herbs"></span>
+  </div>
+</div>
+
+<div class="gallery-wrap">
+  <img src="back.jpg" id="backBtn" alt="back button">
+ 
+  <img src="next.jpg"id="nextBtn" alt="next button">
+</div>
+</section>
+
+<!-- History -->
+
+  <h3>Unraveling the Origins of the Beloved Massaman Curry</h3>
+    <p>Massaman curry is a Thai dish with origins influenced by Persian and Indian culinary traditions. 
+      Its exact origin is debated, but it likely emerged during the Ayutthaya Kingdom (1351–1767) or was 
+      introduced by Muslim traders settling in southern Thailand. Rich in spices like cinnamon, cloves, 
+      and cardamom, Massaman curry has become a beloved and iconic dish in Thai cuisine,
+      known for its aromatic flavors enjoyed both locally and globally.</p>
+
+
+<a href ="#" class="to-top">
+<img src="upbtn.jpg" alt="scroll to top">
+
+</a>     
+  
+<!-- Coming soon -->
+
+
+<h3 id="coming">Coming Soon....</h3>
+<div class="javabtn">
+<button class="styled-btn javabtn" onclick="updateHeading()">When?</button>
+</div>
+<br>
+<br>
+
+<div class="image-grid">
+  <div class="image-container">
+    <img src="image7.jpg" alt="jalfrezi" id="jalfrezi">
+    <div class="text-overlay">Chicken Madras</div>
+  </div>
+  <div class="image-container">
+    <img src="image8.jpg" alt="madras" id="madras">
+    <div class="text-overlay">Chicken Jalfrezi</div>
+  </div>
+  <div class="image-container">
+    <img src="image9.jpg" alt="vegetarian soup" id="cauliflower">
+    <div class="text-overlay">Vegan Lentil Soup</div>
+  </div>
+</div>
+
+<h3>Comments or Recommendations welcome!</h3>
+
+<!-- Form -->
+
+<form id="myForm">
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" required><br>
+  <label for="email">Email:</label>&nbsp;
+  <input type="email" id="email" name="email" required><br>
+  <label for="comment">Comment:</label><br>
+  <textarea id="comment" name="comment" rows="4" cols="50" required></textarea><br><br>
+  <input type="submit" value="Submit" class="submit">
+</form>
+
+  <div id="popupContainer"></div>
+  <script src="js2.js"></script>
+</body></div> 
+<br><br>
+
+<footer>
+<p>
+I hope you enjoyed this recipe! <button onclick="printPage()" class="print2"><img src="print.jpg" alt="print" id="print"></button>
+</p>
+
+<script src="js.js"></script>
+</footer>
+
+</html>
